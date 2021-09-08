@@ -1,0 +1,124 @@
+.logo
+{
+	width: 20%;
+}
+
+.banner
+{
+	width: 100%;
+}
+
+.scale
+{
+	width: 100%;
+}
+
+.d-flex
+{
+justify-content: center;
+}
+
+.logoIg
+{
+	width: 100%;
+	justify-content: center;
+}
+
+.redesFooterFlex{
+	list-style: none;
+
+}
+
+.estilo
+{
+	font-size: 11px;
+
+}
+
+.tamanioLogoIg
+{
+	width: 30%;
+}
+
+
+.grid {
+  border: 1px solid #fff;
+  overflow: hidden;
+  transition: all .3s linear;
+}
+
+.grid:hover img {
+  transform: scale(2);
+  transition: all .2s linear;
+}
+
+.jenny{
+width: 70%;
+}
+
+.gridGaleria
+{
+  display: grid;
+  grid-template-areas: 
+  "imgProd1 imgProd2 imgProd3"
+  "imgProd4 imgProd5 imgProd6";
+grid-template-rows: auto auto ;
+grid-auto-columns: auto auto auto;
+
+}
+
+.imgProd1
+{grid-area: imgProd1;
+width: 30%;}
+.imgProd2
+{grid-area: imgProd2;
+width: 30%;}
+.imgProd3
+{grid-area: imgProd3;
+width: 30%;}
+.imgProd4
+{grid-area: imgProd4;
+width: 30%;}
+.imgProd5
+{grid-area: imgProd5;
+width: 30%;}
+.imgProd6
+{grid-area: imgProd6;
+width: 30%;}
+
+.listaProd
+{
+  display: inline-flex;
+
+  flex-direction: row;
+  background-color: lightblue;
+  margin: 10px;
+  padding: 10px;
+ flex-shrink: 2;
+ justify-content: center;
+list-style: none;
+}
+.barraProd 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgProd
+
+{
+  width: 200px;
+}
+
+.textoProd
+{
+display: flex;
+justify-content: center;
+}
+
+.tituloProductos
+{
+  text-align: center;
+  font-family: 'Style Script', cursive;
+}
